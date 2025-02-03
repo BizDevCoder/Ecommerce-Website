@@ -43,6 +43,19 @@ p{
     margin: 40px 0;
 }
 
+button .normal{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s ease;
+}
+
 body{
     width: 100%;
 }
@@ -78,13 +91,19 @@ left: 0;
 #navbar li a{
     color: #1a1a1a;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     transition: 0.3s ease;  
 }
 
 #navbar li a:hover{
     color: rgb(15, 167, 111);
+}
+
+#navbar li a i{
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 
@@ -113,12 +132,12 @@ left: 0;
 }
 
 #hero button{
-    background-image: url(img/button.png);
-    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(15, 167, 111);
     border: none;
-    color: rgb(15, 167, 111);
-    background-repeat: no-repeat;
-    padding: 14px 80px 14px 60px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
@@ -316,15 +335,17 @@ padding: 10px 0;
 }
 
 #banner button{
-    height: 40px;
-    width: 100px;
-    border-radius: 12px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 4px;
     border: none;
-    background-color: rgb(15, 167, 111);
-    cursor: pointer;
+    outline: none;
 }
 
 #banner button:hover{
-    background-color: rgb(0, 97, 65);
+    background-color: rgb(15, 167, 111);
     color: white;
 }
+
