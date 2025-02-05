@@ -56,6 +56,18 @@ button .normal{
     transition: 0.2s ease;
 }
 
+.button-bn{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
 body{
     width: 100%;
 }
@@ -349,3 +361,85 @@ padding: 10px 0;
     color: white;
 }
 
+
+/* Ad-Banner */
+
+#ad-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#ad-banner .banner-box{
+    background-image: url(/img/banner/b17.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    min-width: 660px;
+    height: 50vh;
+    background-size: cover;
+}
+
+#ad-banner .banner-box-1{
+    background-image: url(/img/banner/b10.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    min-width: 660px;
+    height: 50vh;
+    background-size: cover;
+}
+
+#ad-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#ad-banner h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#ad-banner span{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+
+
+#ad-banner .button-bn:hover{
+    border-color: rgb(15, 167, 111);
+    background-color: rgb(15, 167, 111);
+    
+}
+
+/* Ad-Banner-2 */
+
+#ad-banner-2{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+#ad-banner-2 .banner-container-2{
+    background-image: url(/img/banner/b7.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: white;
+    min-width: 32%;
+    height: 30vh;
+    background-size: cover;
+}
