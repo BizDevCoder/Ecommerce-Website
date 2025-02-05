@@ -426,8 +426,6 @@ padding: 10px 0;
 #ad-banner-2{
     display: flex;
     justify-content: space-between;
-    
-    
 }
 
 #ad-banner-2 .banner-container-2{
@@ -438,8 +436,12 @@ padding: 10px 0;
     align-items: flex-start;
     margin-bottom: 15px;
     padding: 20px;
-    color: white;
-    min-width: 32%;
+    color: rgb(255, 255, 255);
+    min-width: 30%;
     height: 30vh;
     background-size: cover;
+}
+
+#ad-banner-2 .banner-container-2 h3{
+    color: rgb(228, 23, 23);
 }
