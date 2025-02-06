@@ -459,7 +459,7 @@ background-image: url(img/banner/b18.jpg);
     font-size: 26px;
 }
 #ad-banner-2 h3{
-    color: red;
+    color: rgb(180, 3, 3);
     font-weight: 800;
     font-size: 15px;
 }
@@ -560,9 +560,11 @@ margin-top: 20px;
 
 footer .follows i{
     padding-right: 4px;
+    border: 1px solid rgb(15, 167, 111);
+    border-radius: 6px;
     color: #464646;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 32px;
 } 
 
 footer .f-col-install .Payment-img img{
