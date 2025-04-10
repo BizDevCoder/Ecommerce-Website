@@ -131,7 +131,7 @@ left: 0;
 /* Home */
 
 #hero{
-    background-image: url(img/young-girl-red-shirt-casting.jpg);
+    background-image: url(img/banner/white-still-life-composition.jpg);
     height: 100vh;
     width: 100%;
     padding: 0 80px;
@@ -394,8 +394,8 @@ padding: 10px 0;
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
-    min-width: 600px;
-    height: 50vh;
+    min-width: 650px;
+    height: 40vh;
     background-size: cover;
 }
 
@@ -406,8 +406,8 @@ padding: 10px 0;
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
-    min-width: 600px;
-    height: 50vh;
+    min-width: 650px;
+    height: 40vh;
     background-size: cover;
 }
 
@@ -455,8 +455,8 @@ padding: 10px 0;
     background-image: url(img/banner/b7.jpg);
     padding: 20px;
     margin-bottom: 20px;
-    min-width: 30%;
-    height: 30vh;
+    min-width: 32%;
+    height: 34vh;
     background-size: cover;
 }
 
@@ -635,5 +635,125 @@ footer .copy-right{
         color: #1a1a1a;
         font-size: 24px;
         padding-left: 20px;
+    }
+}
+
+
+/* #RESPONSIVE */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    #header {
+        
+        padding: 0 40px;
+    }
+    
+    #hero {
+        padding: 0 40px;
+    }
+
+    #feature {
+        gap: 50px;
+        padding: 50px 20px;
+    }
+    
+    #product .product-container {
+        justify-content: center;
+    }
+    
+    #product .pro {
+        width: 45%;
+    }
+    
+    #ad-banner .banner-box,
+    #ad-banner .banner-box-1 {
+        min-width: 100%;
+        height: 40vh;
+    }
+    
+    #ad-banner-2 {
+        padding: 0px 40px;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    #header {
+        padding: 0 20px;
+    }
+    
+    #navbar {
+        width: 250px;
+    }
+    
+    #hero {
+        padding: 0 20px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #hero h1, #hero h2, #hero h4 {
+        font-size: 32px;
+    }
+    
+    #feature {
+        gap: 30px;
+        padding: 50px 10px;
+    }
+    
+    #product .pro {
+        width: 100%;
+    }
+    
+    #ad-banner-2 .ad-banner-box {
+        min-width: 100%;
+        height: 30vh;
+    }
+    
+    #news-letter .form {
+        width: 100%;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    #hero h1, #hero h2, #hero h4 {
+        font-size: 24px;
+    }
+    
+    #hero button {
+        width: 100px;
+        font-size: 14px;
+    }
+    
+    #feature {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #product .pro {
+        width: 100%;
+    }
+    
+    #ad-banner .banner-box,
+    #ad-banner .banner-box-1 {
+        height: 35vh;
+    }
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
     }
 }
