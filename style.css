@@ -737,10 +737,6 @@ footer .copy-right{
         font-size: 14px;
     }
     
-    #hero h1, #hero h2, #hero h4 {
-        font-size: 24px;
-    }
-    
     #hero button {
         width: 100px;
         font-size: 14px;
@@ -748,7 +744,18 @@ footer .copy-right{
     .section-p1 {
         padding: 20px 20px;
     }
+
+    .section-m1{
+        margin: 0;
+    }
+
+    #hero{
+        height: 50vh;
+    }
     
+    #hero h4{
+        padding-bottom: 0px;
+    }
 
     #ad-banner{
         display: flex;
